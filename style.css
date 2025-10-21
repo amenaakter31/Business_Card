@@ -20,3 +20,16 @@ body{
     border-bottom: 6px solid #f08080;
 }
 
+/*-----media query------*/
+
+@media(max-width: 767px) {
+    .avatar{
+     width: 120px;
+    }
+    .card{
+        width: 200px;
+        display: block;
+        text-align: center; 
+    }
+}
+
